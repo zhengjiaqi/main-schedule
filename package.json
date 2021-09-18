@@ -1,0 +1,24 @@
+{
+  "name": "@tutor/main-schedule",
+  "version": "0.0.1",
+  "description": "桌面端主进程调度",
+  "author": "zhengjiaqi",
+  "license": "MIT",
+  "repository": "zhengjiaqi/main-schedule",
+  "main": "dist/main-schedule.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.9.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  }
+}
